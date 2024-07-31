@@ -20,6 +20,7 @@ const spreadsheetFunctions = {
 
 const evalFormula = (x, cells) => {
     const idToText = id => cells.find(cell => cell.id === id).value;
+    const rangeRegex = /[[A-J]]/;
 }
 
 window.onload = () => {
