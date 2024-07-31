@@ -18,6 +18,10 @@ const spreadsheetFunctions = {
     median
 }
 
+const evalFormula = (x, cells) => {
+
+}
+
 window.onload = () => {
     const container = document.getElementById("container");
     const createLabel = (name) => {
