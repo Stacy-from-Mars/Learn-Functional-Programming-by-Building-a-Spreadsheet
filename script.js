@@ -9,7 +9,7 @@ const infixEval = (str, regex) => str.replace(regex, (_match, arg1, operator, ar
 
 const highPrecedence = (str) => {
     const regex = /([0-9]+)([*|\/])([0-9]+)/
-    regex.test(str);
+    const str2 = infixEval(str, regex);
 }
 
 const isEven = (num) => num % 2 === 0;
