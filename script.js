@@ -35,6 +35,7 @@ const spreadsheetFunctions = {
 
 const applyFunction = (str) => {
     const noHigh = highPrecedence(str);
+    const infix = /([\d.]+)([+-])([\d.]+)/;
 }
 
 const evalFormula = (x, cells) => {
