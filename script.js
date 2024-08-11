@@ -38,6 +38,7 @@ const spreadsheetFunctions = {
     lasttwo: nums => nums.slice(-2),
     has2: nums => nums.includes(2),
     increment: nums => nums.map(num => num + 1),
+    random: ([x, y]) => Math.floor(Math.random() * y + x),
 }
 
 const applyFunction = (str) => {
