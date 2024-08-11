@@ -30,7 +30,8 @@ const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).
 const spreadsheetFunctions = {
     sum,
     average,
-    median
+    median,
+    even: nums => nums.filter(isEven),
 }
 
 const applyFunction = (str) => {
