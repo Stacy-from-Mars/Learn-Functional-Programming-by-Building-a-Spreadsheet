@@ -28,6 +28,7 @@ const range = (start, end) => Array(end - start + 1).fill(start).map((element, i
 const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).map(code => String.fromCharCode(code));
 
 const spreadsheetFunctions = {
+    "": arg => arg,
     sum,
     average,
     median,
